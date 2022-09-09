@@ -1,0 +1,19 @@
+const { SEHIRA } = require('../../Global/Clients/Global.Clients');
+const { Mongoose } = require('../../Global/Databases/Global.MongoDB.Driver');
+const client = global.client = new SEHIRA();
+
+client.botName = "Menu"
+
+Mongoose.Connect()
+client.fetchCommands(true, true)
+client.fetchEvents()
+client.connect(process.env.Voucher)
+
+process.on('uncaughtException', async (err) => {
+  console.error(`[ERROR / Exception] - ${err}`)
+  process.exit(1)
+});
+process.on('unhandledRejection', async (err) => {
+  console.error(`[ERROR / Rejection] - ${err}`)
+  process.exit(1)
+});

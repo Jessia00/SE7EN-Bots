@@ -1,0 +1,29 @@
+{
+    "SERVER": {
+        "ID": "922949759361237014",
+        "Name": "REVULİON"
+    },
+
+    "botSettings": {    
+        "Prefixs": [".","+","!","/","-"]
+    },
+
+    "embed": {
+        "iconURL": "https://media.discordapp.net/attachments/924627407112114176/986291597442437140/2378CB5B-03CF-4240-8AEC-44D9AE7CCCC3.gif",
+        "başlık": "Ψ Révulion ",
+        "altbaşlık": "Ψ Révulion Creatéd by PΛSHΛ",
+        "renk": "RANDOM"
+      },
+
+      "botStatus": {
+        "Status": "dnd",
+        "Name": "Ψ Révulion Creatéd by PΛSHΛ",
+        "voiceChannelID": "913543844816101398"
+    },
+    "Database" : {
+        "Active": true,
+        "MongoURL": "mongodb+srv://swey3131:swey3131@cluster0.lfbov.mongodb.net/botbuwra?retryWrites=true&w=majority"
+    }
+
+}
+
